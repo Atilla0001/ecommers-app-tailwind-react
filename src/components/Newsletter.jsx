@@ -1,0 +1,23 @@
+import React from 'react'
+
+const Newsletter = () => {
+  return (
+    <div className='w-full py-16 text-white px-4'>
+     <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
+        <div className='lg:cols-span-2 my-4'>
+            <h1 className='md:text-4xl sm:text-3xl text-2xl'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, similique.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div className='my-4'>
+            <div className='flex flex-col sm:flex-row  items-center justify-between w-full'>
+                <input className='p-3 flex w-full rounded-md text-black' type="email" placeholder='e-mail' />
+                <button className='flex justify-center text-black rounded-md font-bold bg-[#00df9a] max-w-[200px]  mx-auto px-8 py-2 mt-1'>Notify me</button>
+            </div>
+        </div>
+        <p className=''> Lorem, ipsum dolor sit amet <span className='text-[#00df9a]'>consectetur adipisicing.</span> </p>
+     </div>
+    </div>
+  )
+}
+
+export default Newsletter
