@@ -10,11 +10,12 @@ const Newsletter = () => {
         </div>
         <div className='my-4'>
             <div className='flex flex-col sm:flex-row  items-center justify-between w-full'>
-                <input className='p-3 flex w-full rounded-md text-black' type="email" placeholder='e-mail' />
-                <button className='flex justify-center text-black rounded-md font-bold bg-[#00df9a] max-w-[200px]  mx-auto px-8 py-2 mt-1'>Notify me</button>
+                <input className='p-3 flex w-full rounded-md text-black mr-4' type="email" placeholder='e-mail' />
+                <button className='flex justify-center items-center text-black rounded-md font-bold bg-[#00df9a] h-[48px]  mx-auto px-8  mt-1 lg:ml-4 sm:ml-0'  > <span style={{whiteSpace:"nowrap"}}> Notify me</span></button>
             </div>
+            <p className=''> Lorem, ipsum dolor sit amet <span className='text-[#00df9a]'>consectetur adipisicing.</span> </p>
         </div>
-        <p className=''> Lorem, ipsum dolor sit amet <span className='text-[#00df9a]'>consectetur adipisicing.</span> </p>
+        
      </div>
     </div>
   )
